@@ -47,9 +47,7 @@ def main():
             x, y = (x+1)/2, (y+0)/2
 
 
-        stddraw.filledPolygon([x-0.005, x, x+0.005], [y-0.005, y+0.01*0.5 * math.sqrt(3), y-0.005])
-
-        # stddraw.filledCircle(x,y,0.01)
+        stddraw.filledPolygon([x-0.005, x, x+0.005], [y-0.005, y+0.01*0.5 * math.sqrt(3), y-0.005])        
         stddraw.show(50)
 
 
